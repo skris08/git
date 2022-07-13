@@ -98,11 +98,12 @@ This prompted the Linux development community to develop their own tool - GIT.
 ### Git alias
 
 - Having alias name for the git commands
+
 ### Git fetch
 
-1) changes made in the server
-2) git fetch in the user
-3) git merge origin/<branch>
+1. changes made in the server
+2. git fetch in the user
+3. git merge origin/<branch>
 
 ### Git pull
   

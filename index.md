@@ -10,10 +10,9 @@ Git - Distributed revision control system
 ### A brief history of git
 
 ```markdown
-1. In 2002, the Linux kernel project bega used a Distributed VCS called BitKeeper.
-2. In 2005, a commercial company brokedown the free licence of BitKeeper
-3. This prompted the Linux development community to develop their own tool - GIT.
-
+In 2002, the Linux kernel project bega used a Distributed VCS called BitKeeper.
+In 2005, a commercial company brokedown the free licence of BitKeeper
+This prompted the Linux development community to develop their own tool - GIT.
 ```
 
 ### Git Structures
@@ -28,7 +27,6 @@ Git - Distributed revision control system
 - objects/ (all data are stored here: commits, trees, and tags)
 - hooks/ (shell scripts that are invoked after executing a command)
 - refs/ (hold your local branch remote branch and tags)
-
 ```
 
 ### Git Initialization
@@ -37,7 +35,6 @@ Git - Distributed revision control system
 - git init 
 - git config –global user.name “”
 - git config –global user.email “”
-
 ```
 
 ### Git basic commands
@@ -66,7 +63,6 @@ Git - Distributed revision control system
 - git fetch
 - git pull
 - git push
-
 ```
 
 ### Git Reset
@@ -75,21 +71,18 @@ Git - Distributed revision control system
 --soft: uncommit changes, changes are left staged (index).
 --mixed (default): uncommit + unstage changes, changes are left in working tree.
 --hard: uncommit + unstage + delete changes, nothing left.
-
 ```
 
 ### Git add -p
 
 ```markdown
 - Patch mode allows to stage parts of a changed file, instead of the entire file
-
 ```
 
 ### Git blame
 
 ```markdown
 - examine the contents of a file line by line and see when each line was last modified and who the author of the modifications was
-
 ```
 
 ### Play with Git log
@@ -100,13 +93,11 @@ Git - Distributed revision control system
 - --graph
 - --since --until
 - --author
-
 ```
 
 ### Git alias
 
 - Having alias name for the git commands
-
 ### Git fetch
 
 1) changes made in the server
